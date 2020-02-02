@@ -23,6 +23,5 @@ public void sierpinski(int x, int y, int len)
 		sierpinski(x, y, len/2);
 		sierpinski(x+len/2, y,len/2);
 		sierpinski(x+len/4, y-len/2, len/2);
-		// sierpinski(x+len/8, y-len/4, len/4);
 	}
 }
